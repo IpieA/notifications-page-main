@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+.container{
+    /* max-width: 375px; */
+    padding: min(8vmin, 2rem);;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+.notifications{
+    flex-basis: 50%;
+    display: flex;
+    text-align: center;
+}
+h1{
+    font-size: min(6vmin, calc(1rem + 0.12vmax));
+}
+.number-of-unread-notifications{
+    font-size: min(4.5vmin, 1rem);
+    padding: min(4vmin, 0.1rem) min(4vmin, 0.7rem);;
+    background: hsl(219, 85%, 26%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    margin: 0 10px;
+}
+.mark-all{
+    font-size: min(4vmin, calc(0.81rem + 0.12vmax));
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+}
+.mark-all:hover{
+    color: hsl(219, 85%, 26%);
+}
+.notification-container{
+    display: flex;
+    margin: 0.5em 0;
+    padding: 1em;
+}
+.image-container{
+    flex-basis: 5%;
+}
+img{
+    height: min(10vmin, 3rem);
+}
+.text-container{
+    flex-basis: 95%;
+    margin-left: 15px;
+}
+.notification-dot{
+    display: inline-block;
+    width: min(2.5vmin, 0.5rem);
+    height: min(2.5vmin, 0.5rem);
+    border-radius: 50%;
+    margin-left: 4px;
+    background: hsl(1, 90%, 64%);
+}
+.notification-text p{
+    font-size: min(4vmin, calc(0.81rem + 0.12vmax));
+    font-weight: 500;
+    margin-bottom: min(2.5vmin, 0.5rem);
+    color: hsl(219, 12%, 42%);
+}
+.notification-text + p{
+    font-size: min(4vmin, calc(0.85rem + 0.12vmax));
+    font-weight: 500;
+    color: hsl(219, 14%, 63%);
+}
+.chess-club{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+    cursor: pointer;
+}
+.names{
+    font-weight: 800;
+    cursor: pointer;
+}
+.names:hover{
+    color: hsl(219, 85%, 26%);
+}
+.comments{
+    font-size: min(4vmin, calc(0.81rem + 0.12vmax));
+    color: hsl(219, 12%, 42%);
+    border: 1px solid hsl(205, 33%, 90%);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.comments:hover{
+    background: hsl(211, 68%, 94%);
+}
+.side-photo{
+    display: flex;
+    justify-content: space-between;
+}
+.side-photo img{
+    margin-left: 3px;
+    cursor: pointer;
+}
+.unread-notification{
+    background: hsl(210, 60%, 98%);
+    border-radius: 10px;
+}
+.attribution{ 
+    font-size: min(4vmin, calc(0.81rem + 0.12vmax)); 
+    text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
