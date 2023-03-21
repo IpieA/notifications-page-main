@@ -73,12 +73,16 @@ img{
     font-size: min(4vmin, calc(0.81rem + 0.12vmax));
     font-weight: 500;
     margin-bottom: min(2.5vmin, 0.5rem);
-    color: hsl(219, 12%, 42%);
+    color: hsl(219, 14%, 63%);
 }
 .notification-text + p{
     font-size: min(4vmin, calc(0.85rem + 0.12vmax));
     font-weight: 500;
     color: hsl(219, 14%, 63%);
+}
+.posts-links{
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
 }
 .chess-club{
     color: hsl(219, 85%, 26%);
@@ -88,6 +92,7 @@ img{
 .names{
     font-weight: 800;
     cursor: pointer;
+    color: hsl(224, 21%, 14%);
 }
 .names:hover{
     color: hsl(219, 85%, 26%);
