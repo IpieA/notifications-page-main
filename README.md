@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/IpieA/notifications-page-main]
-- Live Site URL: [thenotificationspage.netlify.app]
+- Live Site URL: [https://thenotificationspage.netlify.app]
 
 ## My process
 
@@ -42,6 +42,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- javaScript
 
 
 ## Author
